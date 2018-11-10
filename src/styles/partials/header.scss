@@ -1,0 +1,43 @@
+.header {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__headline {
+  position: fixed;
+  text-align: center;
+  font-size: 4rem;
+  color: rgba(20, 0, 0, 0.9);
+  z-index: 1;
+
+  @include mq(small) {
+    font-size: 6rem;
+  }
+}
+
+.header__title {
+  will-change: opacity;
+  font-family: monospace;
+  letter-spacing: 1.6rem;
+  line-height: 1.35em;
+
+  margin-left: 1.25rem; // fixing centering
+
+  @include mq(small) {
+    margin-left: -.5rem; // fixing centering
+    line-height: 1.5em;
+  }
+}
+
+.header__sub-title {
+  font-size: .6rem;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+
+  @include mq(small) {
+    font-size: .8rem;
+    letter-spacing: 2rem;
+  }
+}
