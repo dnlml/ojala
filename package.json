@@ -16,6 +16,7 @@
     "babel-loader": "^8.0.2",
     "copy-webpack-plugin": "^4.5.2",
     "css-loader": "^1.0.0",
+    "html-loader": "^0.5.5",
     "mini-css-extract-plugin": "^0.4.3",
     "node-sass": "^4.9.3",
     "optimize-css-assets-webpack-plugin": "^5.0.1",

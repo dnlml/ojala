@@ -1,12 +1,12 @@
 .header {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 .header__headline {
-  position: fixed;
   text-align: center;
   font-size: 4rem;
   color: rgba(20, 0, 0, 0.9);
@@ -40,4 +40,10 @@
     font-size: .8rem;
     letter-spacing: 2rem;
   }
+}
+
+.header__footer {
+  position: fixed;
+  bottom: 0;
+  line-height: 3;
 }
