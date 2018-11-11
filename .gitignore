@@ -1,3 +1,4 @@
 /dist
 /assets source
 /node_modules
+/favicon (to add into dist before upload)/
